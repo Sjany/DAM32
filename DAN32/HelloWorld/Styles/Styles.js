@@ -1,33 +1,29 @@
 import { ImageBackground, StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        backgroundColor: '#dfe6e9', // color corregido
-    },
-    title: {
-        color: '#2d3436',
-        fontSize: 20,
-        fontWeight: 'bold',
-        textAlign: 'center', // corregido
-        textTransform: 'uppercase', // corregido
-        letterSpacing: 2,
-        textShadowColor: '#0000', // color corregido
-        textShadowOffset: { width: 2, height: 2 }, // corregido
-        paddingBottom: 15, // corregido
-    },
-    box: {
-        backgroundColor: 'red',
-        width: '100%',
-        height: 100, // corregido
-        justifyContent: 'flex-end',
-    },
-    boxImage: {
-        backgroundColor: 'blue',
-        width: '100%',
-        height: '100%', // corregido
-        justifyContent: 'flex-start',
-    }
+  container: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: '#f0f4f7', 
+    padding: 20,
+  },
+  image: {
+    width: 200,
+    height: 200,
+    marginBottom: 20,
+    borderRadius: 100, 
+  },
+  text: {
+    fontSize: 18,
+    fontWeight: '600',
+    color: '#333', 
+    textAlign: 'center', 
+    lineHeight: 28, 
+    backgroundColor: 'rgba(255,255,255,0.6)',
+    padding: 10,
+    borderRadius: 10,
+  },
 });
 
 export default styles;
